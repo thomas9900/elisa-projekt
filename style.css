@@ -16,6 +16,37 @@ body {
   font-family: 'Nunito';
 }
 
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.price {
+    color: var(--secondary-color);
+}
+
+.fa-quote-right {
+    color: var(--gray-color);
+}
+
+.perMonth {
+    color: var(--gray-color);
+    vertical-align: top;
+    font-size: 85%;
+}
+
+.price-preDiscount {
+    color: var(--gray-color);
+    text-decoration: line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .header {
     margin: 0 auto;
 }
@@ -43,7 +74,6 @@ body {
     text-transform: uppercase;
     font-size: 36px;
 }
-
 
 .main__phoneInfo {
     display: flex;
@@ -82,39 +112,6 @@ body {
     text-align: center;
     font-size: 24px;
     padding: 0 20px;
-}
-
-
-
-.btn {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 12px;
-    cursor: pointer;
-}
-
-.price {
-    color: var(--secondary-color);
-}
-
-.fa-quote-right {
-    color: var(--gray-color);
-}
-
-.perMonth {
-    color: var(--gray-color);
-    vertical-align: top;
-    font-size: 85%;
-}
-
-.price-preDiscount {
-    color: var(--gray-color);
-    text-decoration: line-through;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 .main__phoneInfo-ul {
